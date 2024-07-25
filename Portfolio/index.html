@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richard - Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./assets/images/dev.png" type="image/x-icon">
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+
+        <!--
+      - #SIDEBAR
+    -->
+
+        <aside class="sidebar" data-sidebar>
+
+            <div class="sidebar-info">
+
+                <figure class="avatar-box">
+                    <img src="./assets/images/ProfileR.jpg" alt="Richard Passarelli" width="80">
+                </figure>
+
+                <div class="info-content">
+                    <h1 class="name" title="Richard Passarelli">Richard Passarelli</h1>
+
+                    <p class="title">Full Stack Developer</p>
+                </div>
+
+                <button class="info_more-btn" data-sidebar-btn>
+                    <span>Show Contacts</span>
+
+                    <ion-icon name="chevron-down"></ion-icon>
+                </button>
+
+            </div>
+
+            <div class="sidebar-info_more">
+
+                <div class="separator"></div>
+
+                <ul class="contacts-list">
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Email</p>
+
+                            <a href="mailto:richardfpassarelli@gmail.com"
+                                class="contact-link">richardfpassarelli@gmail.com</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="phone-portrait-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Phone</p>
+
+                            <a href="tel:+5511953934458" class="contact-link">+55 (11) 95393-4458</a>
+                        </div>
+
+                    </li>
+
+                    <li class="contact-item">
+
+                        <div class="icon-box">
+                            <ion-icon name="location-outline"></ion-icon>
+                        </div>
+
+                        <div class="contact-info">
+                            <p class="contact-title">Location</p>
+
+                            <address>São Paulo, BR</address>
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <div class="separator"></div>
+
+                <ul class="social-list">
+
+                    <li class="social-item">
+                        <a href="https://github.com/RichardRichk" class="social-link">
+                            <ion-icon name="logo-github"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li class="social-item">
+                        <a href="https://www.linkedin.com/in/richard-passarelli-4a24b8233/" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </aside>
+
+
+
+
+
+        <!--
+      - #main-content
+    -->
+
+        <div class="main-content">
+
+            <!--
+        - #NAVBAR
+      -->
+
+            <nav class="navbar">
+
+                <ul class="navbar-list">
+
+                    <li class="navbar-item">
+                        <button class="navbar-link  active" data-nav-link>About</button>
+                    </li>
+
+                    <li class="navbar-item">
+                        <button class="navbar-link" data-nav-link>Portfolio</button>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+
+
+
+
+            <!--
+        - #ABOUT
+      -->
+
+            <article class="about  active" data-page="about">
+
+                <header>
+                    <h2 class="h2 article-title">About me</h2>
+                </header>
+
+                <section class="about-text">
+                    <p>
+                        I am a Computer Science student at Anhembi Morumbi University and completing a degree in Systems
+                        Analysis and Development at SENAI. Specialized as a Full Stack Developer through a course at
+                        SENAI in
+                        partnership with Volkswagen.
+                    </p>
+
+                    <p>
+                        My skills are solid in React, React Native, HTML, CSS, WordPress, Figma, and I have experience
+                        with Agile
+                        methodologies like Scrum, as well as tools such as Git and GitHub. My expertise spans web and
+                        mobile
+                        development, using C#, Java, Kotlin, and Node.js.
+                    </p>
+
+                    <p>
+                        I worked as an administrative assistant, gaining competencies in client management, team
+                        coordination,
+                        and general operations. I am committed to applying my diverse experience and technical knowledge
+                        to
+                        create software solutions, eager to learn and contribute in a new work environment.
+                    </p>
+                </section>
+
+
+                <!--
+          - testimonials
+        -->
+
+                <section class="testimonials">
+
+                    <h3 class="h3 testimonials-title">Certifications</h3>
+
+                    <ul class="testimonials-list has-scrollbar">
+
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/ia.png" alt="Microsoft Certified: Azure AI Fundamentals
+                                        " width="60" data-testimonials-avatar>
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Microsoft Certified:
+                                    Azure AI Fundamentals
+                                </h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        Earners of the Azure AI Fundamentals certification have demonstrated
+                                        foundational knowledge of machine learning (ML) and artificial intelligence (AI)
+                                        concepts and related Microsoft Azure services.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/azure-data-fundamentals-600x600.png"
+                                        alt="Microsoft Certified: Azure Data Fundamentals" width="60"
+                                        data-testimonials-avatar>
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Microsoft Certified:
+                                    Azure Data Fundamentals
+                                </h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        Earners of the Azure Data Fundamentals certification have demonstrated
+                                        foundational knowledge of core data concepts and how they are implemented using
+                                        Microsoft Azure data services.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="testimonials-item">
+                            <div class="content-card" data-testimonials-item>
+
+                                <figure class="testimonials-avatar-box">
+                                    <img src="./assets/images/security-compliance-and-identity-fundamentals-600x600.png"
+                                        alt="Microsoft Certified: Security, Compliance, and Identity Fundamentals"
+                                        width="60" data-testimonials-avatar>
+                                </figure>
+
+                                <h4 class="h4 testimonials-item-title" data-testimonials-title>Microsoft Certified:
+                                    Security, Compliance, and Identity Fundamentals</h4>
+
+                                <div class="testimonials-text" data-testimonials-text>
+                                    <p>
+                                        Earners of the Security, Compliance, and Identity Fundamentals demonstrate a
+                                        functional understanding of security, compliance, and identity (SCI) across
+                                        cloud-based and related Microsoft services.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </section>
+
+
+                <!--
+          - testimonials modal
+        -->
+
+                <div class="modal-container" data-modal-container>
+
+                    <div class="overlay" data-overlay></div>
+
+                    <section class="testimonials-modal">
+
+                        <button class="modal-close-btn" data-modal-close-btn>
+                            <ion-icon name="close-outline"></ion-icon>
+                        </button>
+
+                    </section>
+
+                </div>
+
+
+                <!--
+          - clients
+        -->
+
+                <section class="clients">
+
+                    <h3 class="h3 clients-title">Skills</h3>
+
+                    <ul class="clients-list has-scrollbar">
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/Logo_C_sharp.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/SQL.svg" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/JavaScript.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/Git_icon.svg.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/Java.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/react.svg" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/typescript.svg" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/mongodb.svg" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/NET_Core_Logo.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/html5.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/CSS3.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/github.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/Visual_Studio_Code_1.35_icon.svg.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/code.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/Microsoft_Azure.svg.png" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/postman-icon.svg" alt="client logo">
+                            </a>
+                        </li>
+
+                        <li class="clients-item">
+                            <a href="#">
+                                <img src="./assets/images/5314-windows_102509.webp" alt="client logo">
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+
+            <!--
+        - #PORTFOLIO
+      -->
+
+            <article class="portfolio" data-page="portfolio">
+
+                <header>
+                    <h2 class="h2 article-title">Portfolio</h2>
+                </header>
+
+                <section class="projects">
+
+                    <div class="filter-select-box">
+
+                        <button class="filter-select" data-select>
+
+                            <div class="select-value" data-selecct-value>Select category</div>
+
+                            <div class="select-icon">
+                                <ion-icon name="chevron-down"></ion-icon>
+                            </div>
+
+                        </button>
+
+                    </div>
+
+                    <ul class="project-list">
+
+                        <li class="project-item  active" >
+                            <a href="https://github.com/RichardRichk/VitalHub_Duo/tree/Richard">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/VitalHub.png" alt="finance" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Vital_Hub</h3>
+
+                                <p class="project-category">Mobile Application</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active">
+                            <a href="https://github.com/VoltAir-Code/Front_VoltAir/tree/Develop">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/Voltair.png" alt="orizon" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">VoltAir</h3>
+
+                                <p class="project-category">Mobile Application</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active">
+                            <a href="https://github.com/RichardRichk/API_EventPlus">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/EventPlus.png" alt="fundo" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">API-Event+</h3>
+
+                                <p class="project-category">API Application</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="automation applications">
+                            <a href="https://github.com/RichardRichk/Estudos_Senai_1.34/tree/main/Basico_FrontEnd/projeto-gamer-senai">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/ProjetoGamer.png" alt="brawlhalla" loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">Projeto Gamer</h3>
+
+                                <p class="project-category">Web Application</p>
+
+                            </a>
+                        </li>
+
+                        <li class="project-item  active" data-filter-item data-category="web development">
+                            <a href="https://github.com/MamukaSenai/New_API_Mamuka">
+
+                                <figure class="project-img">
+                                    <div class="project-item-icon-box">
+                                        <ion-icon name="eye-outline"></ion-icon>
+                                    </div>
+
+                                    <img src="./assets/images/JavaProject.png" alt="dsm." loading="lazy">
+                                </figure>
+
+                                <h3 class="project-title">API Mamuka</h3>
+
+                                <p class="project-category">API Application</p>
+
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </section>
+
+            </article>
+
+        </div>
+
+    </main>
+
+
+
+
+
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
